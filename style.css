@@ -17,11 +17,60 @@
 .price{
     color: #FF136F;    
 }
-.head-btn{
+.btn{
     background:linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
     color: #fff;
     border: none;
     border-radius: 7px;
     cursor: pointer;
     padding: 10px 25px;
+    text-transform: capitalize;
+}
+/* categories area */
+.categories{}
+.cat1, .cat2 , .cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.categories img{
+    width: 100px;
+}
+.categories h1{
+    color: #fff;
+}
+.cat1{
+    background-color: #FF136F;
+}
+.cat2{
+    background-color: orange;
+}
+.cat3{
+    background-color: blue;
+}
+/* shoes area */
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+}
+/* backpack area */
+.card-footer{
+    background: white;
+    border-top: none;
+}
+/* subscribe area */
+.subscribe{
+    background: #fceae8;
+    border-radius: 10px;
+    height: 300px;
+}
+.subscribe input{
+    margin-bottom: 20px;
+}
+.subscribe h6{
+    color: gray;
+    
+}
+footer{
+    text-align: center;
 }
